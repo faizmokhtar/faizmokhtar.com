@@ -2,6 +2,7 @@
 title: "Go Examples and Benchmarks"
 date: 2018-08-03T18:25:11+08:00
 draft: false
+tags: [go, til]
 ---
 
 I learned about Go examples and benchmarks today. They are parts of Go default package testing.
