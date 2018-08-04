@@ -30,7 +30,7 @@ and as the more tests you add, the better your tests will become. You just have 
 
 ## 4. Enable Code Coverage
 Try to enable the code coverage feature available on your IDE. I find it somewhat motivating to see the code coverage percentage increase 
-from 0%, 5%, 18.5%...well you get my gist. Motivation is good in this case and you really need it. Hopefully, as you progress the code will naturally becomes easier to test and more modular.
+from 0%, 5%, 18.5%...well you get my gist. Motivation is good and you really need it in this case. Hopefully, as you progress the code will naturally becomes easier to test and more modular.
 
 Good luck. 🐛
 
