@@ -29,8 +29,8 @@ Your unit tests doesn't have to be perfect, it just need to be correct. I read t
 and as the more tests you add, the better your tests will become. You just have to keep on adding tests and continously improve it along the way.
 
 ## 4. Enable Code Coverage
-try to enable the code coverage feature available on your IDE. I find it somewhat motivating to see the code coverage percentage increase 
-from 0%, 5%, 18.5%...well you got the gist of it. As you progress, the code will naturally becomes easier to test and more modular.
+Try to enable the code coverage feature available on your IDE. I find it somewhat motivating to see the code coverage percentage increase 
+from 0%, 5%, 18.5%...well you get my gist. Motivation is good in this case and you really need it. Hopefully, as you progress the code will naturally becomes easier to test and more modular.
 
 Good luck. 🐛
 
