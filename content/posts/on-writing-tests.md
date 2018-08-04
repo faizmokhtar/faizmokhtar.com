@@ -20,8 +20,8 @@ You don't have to ask your project manager to allocate a time slots for this and
 You just have start writing a single unit test and the rest will follow.
 
 ## 2. Write New Feature With Unit Tests
-When you are given the responsibity to add new feature, try to write a unit tests alongside it. It will not work all the time as you realize
-that there might be a lot of coupling between each classes or methods, or heavy usage of singletons. but you just have to try. If you can't,
+When you are given the responsibity to add new feature, try to write a unit tests alongside it. It may not work all the time as you realize
+that there might be a lot of coupling between each classes or methods, or heavy usage of singletons, but you just have to try. If you can't,
 take some time to think about the changes to be done to make it more testable.
 
 ## 3. It Doesn't Have to Be Perfect
