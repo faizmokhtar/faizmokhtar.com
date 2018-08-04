@@ -5,10 +5,10 @@ draft: false
 ---
 
 I would consider that I am a beginner at [unit testing][1] but these days, I started writing it much more frequently and I am quite proud of it. 
-I noticed that it actually helps me to notice regression early on and as well as helping me to understand how the components work together.
+I noticed that it actually helps me to notice regression early on and as well as helps me to understand how the components work together.
 
 I also learned 'the hard way' how hard it is to start writing unit tests for an existing project that have 0 unit test. Like super hard.
-Still, I find it to be an interesting challenge for me to grow as a software developer.
+Still, I consider it as an interesting challenge for me to grow as a software developer.
 
 So here are some helpful advice if you're stuck in the same situation and wanted to make the project better.
 
