@@ -1,5 +1,5 @@
 ---
-title: "View Git Diff of Changes Since Last Pull"
+title: "View Git Diff For Changes Since Last Pull"
 date: 2018-08-07T17:32:55+08:00
 draft: false
 tags: [git, til]
