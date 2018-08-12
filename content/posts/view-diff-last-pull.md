@@ -1,11 +1,11 @@
 ---
-title: "View Git Diff For Changes Since Last Pull"
+title: "Viewing Diff Since Latest Git Pull"
 date: 2018-08-07T17:32:55+08:00
 draft: false
 tags: [git, til]
 ---
 
-To view the changes between your last `git pull`
+To view the changes between your latest `git pull`
 
 ```
 $~ git pull origin

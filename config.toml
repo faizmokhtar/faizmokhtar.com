@@ -3,3 +3,24 @@ languageCode = "en-us"
 title = "faizmokhtar"
 theme = "hugo-classic"
 googleAnalytics = ""
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+[[menu.feed]]
+    name = "rss"
+    url = "/index.xml"
+
+
+[params]
+    description = "A simple, minimal blog for those who love text."
+    footer = "&copy; Be nice."
