@@ -2,13 +2,12 @@
 title: "Diff So Fancy"
 date: 2018-08-13T16:37:39+08:00
 draft: false
+tags: [git, tools]
 ---
 
-I find it hard to make sense of the output from `git diff` and it's somewhat off-putting too.
+I find it quite hard to make sense of the output from `git diff`. Let's just say that it is somewhat off-putting. [`diff-so-fancy`][1] is an open source project to solve this problem and help make your diff much less uglier.
 
-[`diff-so-fancy`][1] is an open source project to solve this problem and help make your diff much less uglier.
-
-## To install it
+## Installation
 
 There are a lot of ways to install it but I prefer to install all my tools with Brew. 
 So run the following in your terminal:
