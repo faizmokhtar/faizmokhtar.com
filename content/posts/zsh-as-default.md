@@ -1,5 +1,5 @@
 ---
-title: "Zsh as Default"
+title: "zsh a Default Terminal Shell"
 date: 2018-08-20T22:41:07+08:00
 draft: false
 ---
