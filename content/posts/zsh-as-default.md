@@ -1,7 +1,7 @@
 ---
 title: "Zsh as Default"
 date: 2018-08-20T22:41:07+08:00
-draft: true
+draft: false
 ---
 
 I prefer [`zsh`][1] over [`bash`][2] as my everyday shell.
@@ -20,7 +20,7 @@ $~ which zsh
 /usr/local/bin/zsh #output
 ```
 
-## 2. Set zsh as default shell
+## 2. Set `zsh` as default shell
 
 To set is as default shell, run the following in your terminal:
 
