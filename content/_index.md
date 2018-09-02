@@ -4,7 +4,11 @@ title: Home
 
 # Hello 👋
 
-I'm **Faiz Mokhtar**. A **software engineer** who currently resides in **Kuala Lumpur, Malaysia**. I like to **read** and **run**. You can usually find me;
+I'm **Faiz Mokhtar**, a **software engineer**. <br>
+Currently, I reside in **Kuala Lumpur, Malaysia**. <br>
+When I'm not coding, I like to **read** and **run**. 
+ 
+You can usually find me;
 
 - Pushing codes on [Github][2]
 - RT'ing and ranting about codes at [@faizmokh][1]
