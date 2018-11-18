@@ -12,7 +12,7 @@ If you want to rename of your current local branch:
 git branch -m new-branch-name
 ```
 
-If you want to change the name of different local branch
+If you want to change the name of a different local branch
 
 ```
 git branch -m old-branch new-branch-name
