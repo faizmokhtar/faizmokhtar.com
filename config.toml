@@ -1,6 +1,6 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "faizmokhtar"
+title = "@faizmokh"
 theme = "hugo-classic"
 googleAnalytics = ""
 
@@ -22,5 +22,5 @@ googleAnalytics = ""
 
 
 [params]
-    description = "A simple, minimal blog for those who love text."
+    description = "Collection of notes"
     footer = "&copy; Be nice."
