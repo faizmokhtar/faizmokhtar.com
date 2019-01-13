@@ -2,6 +2,7 @@
 title: "Diff So Fancy"
 date: 2018-08-13T16:37:39+08:00
 draft: false
+categories: [Development]
 tags: [git, tools]
 ---
 

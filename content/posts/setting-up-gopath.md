@@ -2,6 +2,7 @@
 title: "Setting Up $GOPATH"
 date: 2018-08-02T17:48:22+08:00
 draft: false
+categories: [Development]
 tags: [go]
 ---
 

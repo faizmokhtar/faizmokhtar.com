@@ -2,6 +2,8 @@
 title: "zsh a Default Terminal Shell"
 date: 2018-08-20T22:41:07+08:00
 draft: false
+categories: [Development]
+tags: [tools]
 ---
 
 I prefer [`zsh`][1] over [`bash`][2] as my everyday shell.

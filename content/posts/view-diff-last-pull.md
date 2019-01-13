@@ -2,6 +2,7 @@
 title: "Viewing Diff Since Latest Git Pull"
 date: 2018-08-07T17:32:55+08:00
 draft: false
+categories: [Development]
 tags: [git, til]
 ---
 

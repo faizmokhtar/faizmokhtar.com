@@ -1,6 +1,8 @@
 ---
 title: "Set Default Git Push Behaviour"
 date: 2018-08-22T18:44:01+08:00
+categories: [Development]
+tags: [git]
 draft: false
 ---
 

@@ -2,6 +2,7 @@
 title: "Go Examples and Benchmarks"
 date: 2018-08-03T18:25:11+08:00
 draft: false
+categories: [Development]
 tags: [go, til]
 ---
 

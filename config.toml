@@ -1,7 +1,9 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
 title = "@faizmokh"
-theme = "hugo-classic"
+theme = "mainroad"
+paginate = "8"
+disqusShortname = ""
 googleAnalytics = ""
 
 [[menu.main]]
@@ -12,15 +14,37 @@ googleAnalytics = ""
     name = "Posts"
     url = "/posts/"
     weight = 2
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
 [[menu.feed]]
     name = "rss"
     url = "/index.xml"
 
+[Author]
+  name = "Faiz Mokhtar"
+  bio = "A software engineer."
 
 [params]
-    description = "Collection of notes"
     footer = "&copy; Be nice."
+    subtitle = "Development notes and everything"
+    description = "Faiz's Personal blog about everything"
+    copyright = "Faiz Mokhtar" # copyright holder, otherwise will use site title
+    opengraph = true # Enable OpenGraph if true
+    twitter_cards = true # Enable Twitter Cards if true
+    readmore = false # Show "Read more" button in list if true
+    authorbox = false # Show authorbox at bottom of pages if true
+    toc = false # Enable Table of Contents
+    post_navigation = true # Show post navigation at bottom of pages if true
+    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+
+[params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "taglist"]
+
+
+[params.widgets.social]
+    twitter = "faizmokh"
+    github = "faizmokhtar"
+    gitlab = "faizmokhtar"
+    email = "mfmokhtar@gmail.com"
