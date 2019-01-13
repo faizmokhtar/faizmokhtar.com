@@ -36,15 +36,18 @@ googleAnalytics = ""
     postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
 
 [params.sidebar]
-  home = "right"   # Configure layout for home page
-  list = "right"   # Configure layout for list pages
-  single = "right" # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["recent", "taglist"]
+    home = "right"   # Configure layout for home page
+    list = "right"   # Configure layout for list pages
+    single = "right" # Configure layout for single pages
+    # Enable widgets in given order
+    widgets = ["recent", "taglist", "social"]
 
+[params.widgets]
+    recent_num = 5 # Set the number of articles in the "Recent articles" widget
+    tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
 
 [params.widgets.social]
     twitter = "faizmokh"
     github = "faizmokhtar"
-    gitlab = "faizmokhtar"
+    linkedin = "faizmokh"
     email = "mfmokhtar@gmail.com"
