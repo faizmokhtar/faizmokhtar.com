@@ -33,7 +33,7 @@ googleAnalytics = ""
     authorbox = false # Show authorbox at bottom of pages if true
     toc = false # Enable Table of Contents
     post_navigation = true # Show post navigation at bottom of pages if true
-    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    postSections = ["posts"] # the section pages to show on home page and the "Recent articles" widget
 
 [params.sidebar]
     home = "right"   # Configure layout for home page
