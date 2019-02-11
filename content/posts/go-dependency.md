@@ -76,8 +76,7 @@ Each having their own version of libraries. Pretty soon you will have those
 `dep` solve this by making sure everyone who works on the project is guaranteed to be
 using the same version of dependencies.
 
-With that hopefully by now you have learned the basic of `go dep` to manage your project dependencies.
-
+That's it. Hopefully now you have learned the basic usage sof `go dep` to manage your project dependencies.
 
  [1]:https://golang.github.io/dep/
  [2]:https://www.npmjs.com/
