@@ -10,7 +10,7 @@ Here are some helpful keyboard shortcuts that can help you run your unit tests m
 
 - To run all tests:
 
-<kbd>CMD</kbd> + <kbd>U</kbd> 
+> <kbd>CMD</kbd> + <kbd>U</kbd> 
 
 - To run whichever test your text caret (those blinking thing) is  currently in:
 
