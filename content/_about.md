@@ -3,6 +3,7 @@ title: About
 authorbox: false
 sidebar: false
 menu: main
+disable_comments: true
 ---
 
 You can usually find me
