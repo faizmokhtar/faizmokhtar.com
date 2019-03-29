@@ -4,7 +4,7 @@ title = "@faizmokh"
 theme = "mainroad"
 paginate = "8"
 disqusShortname = "faizmokhtar"
-googleAnalytics = ""
+googleAnalytics = "UA-45192347-5"
 
 [[menu.main]]
     name = "Home"

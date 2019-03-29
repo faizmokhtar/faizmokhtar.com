@@ -27,5 +27,5 @@ Here's a quick rundown:
 
 3. And finally, Xcode will always use Objective-C as the default context. Meaning if you pause the program execution without using breakpoint, you'll have to use Objective-C syntax.
 
-That's it. Hopefully this will helps a little bit when you are debugging a project that have a mixture of both Swift and Objective-C codes. ✌️
+That's it. Hopefully this tips will helps you a little bit when debugging a project that have a mixture of both Swift and Objective-C codes. ✌️
 
