@@ -16,4 +16,5 @@ collections:
       - {label: "Publish date", name: "date", widget: "datetime"}
       - {label: "Categories", name: "categories", required: false, widget: "list"}
       - {label: "Tags", name: "tags", required: false, widget: "list"}
+      - {label: "Enable comments", name: "comments", default: true, widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
