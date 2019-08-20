@@ -2,7 +2,7 @@
 title: Keeping Test Logic out of Production
 date: 2019-08-20T14:33:34.517Z
 categories:
-  - Reading Notes
+  - reading-notes
 tags:
   - notes
   - til
