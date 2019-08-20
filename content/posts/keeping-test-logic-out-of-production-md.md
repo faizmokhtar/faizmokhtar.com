@@ -1,5 +1,5 @@
 ---
-title: Keeping Test Logic out of Production
+title: Keep Test Logic out of Production
 date: 2019-08-20T14:33:34.517Z
 categories:
   - reading-notes
