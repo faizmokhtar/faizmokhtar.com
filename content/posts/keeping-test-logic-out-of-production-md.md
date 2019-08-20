@@ -10,7 +10,7 @@ comments: false
 ---
 I'm currently reading [xUnit Test Patterns: Refactoring Test code][1] and so far it's been a great read.
 
-Here's some excerpts on keeping the test logic out of production code. Don't.
+Here's some advices on keeping the test logic out of production code. Don't.
 
 > Testing is about verifying the behavior of a system. If the system behaves differently when under test, then how can we be certain that the production code actually works?
 
