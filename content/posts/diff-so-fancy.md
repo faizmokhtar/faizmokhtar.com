@@ -9,7 +9,7 @@ tags:
 comments: false
 ---
 
-I find it quite hard to make sense of the output from `git diff`. Let's just say that it is somewhat off-putting. [`diff-so-fancy`][1] is an open source project to solve this problem and help make your diff much less uglier.
+I find it quite hard to make sense of the output from `git diff`. It is somewhat off-putting and ugly for me. [`diff-so-fancy`][1] is an open source project to solve this problem and help make your diff much less uglier.
 
 ## Installation
 
