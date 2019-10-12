@@ -1,9 +1,12 @@
 ---
-title: "Diff So Fancy"
-date: 2018-08-13T16:37:39+08:00
-draft: false
-categories: [Development]
-tags: [git, tools]
+title: Prettify git diff Output with Diff So Fancy
+date: 2018-08-13T08:37:39.000Z
+categories:
+  - Development
+tags:
+  - git
+  - tools
+comments: false
 ---
 
 I find it quite hard to make sense of the output from `git diff`. Let's just say that it is somewhat off-putting. [`diff-so-fancy`][1] is an open source project to solve this problem and help make your diff much less uglier.
