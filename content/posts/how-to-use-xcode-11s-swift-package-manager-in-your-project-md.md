@@ -41,7 +41,7 @@ To remove a package is easy too. Navigate to your project settings and you will 
 
 ## Caveats
 
-From my limited understanding of how it works, I was expecting Swift Package Manager will create a `Package.swift` file but instead it creates a references of the package in `.xcodeproj` file.
+From my limited understanding of how it works, I was expecting Swift Package Manager to create a `Package.swift` file but instead it creates a references of the package in `.xcodeproj` file.
 
 ![git diff for the xcodeproj](/images/uploads/swiftpm-5.png "`git diff` for the xcodeproj")
 
