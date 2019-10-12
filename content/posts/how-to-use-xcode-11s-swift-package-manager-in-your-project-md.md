@@ -12,3 +12,5 @@ File > Swift Packages > Add Package Dependency...
 ```
 
 and simply add the repository URL. For example, to add Alamofire library you just have to add `https://github.com/Alamofire/Alamofire.git`
+
+![Add new Swift package](/images/uploads/swiftpm-1.png "Add new Swift package")
