@@ -2,8 +2,11 @@
 title: Using Xcode 11's Swift Package Manager in Your Project
 date: 2019-10-12T13:21:59.275Z
 categories:
+  - Development
+tags:
+  - til
   - xcode
-  - ''
+  - tools
 comments: false
 ---
 Similar like [Cocoapods][1] or [Carthage][2], you can use [Swift Package Manager][3] to manage the dependencies in your Cocoa project.
