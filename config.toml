@@ -1,6 +1,6 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "Today I Learned"
+title = "til: today I learned"
 theme = "mainroad"
 paginate = "8"
 disqusShortname = "faizmokhtar"
