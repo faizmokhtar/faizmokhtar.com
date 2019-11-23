@@ -1,7 +1,7 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
 title = "til: today I learned"
-theme = "mainroad"
+theme = "hugo-ink"
 paginate = "8"
 disqusShortname = "faizmokhtar"
 googleAnalytics = "UA-45192347-5"
@@ -24,7 +24,7 @@ googleAnalytics = "UA-45192347-5"
 
 [params]
     footer = "&copy; Be nice."
-    subtitle = "Development notes and everything else in between"
+    subtitle = "@faizmokh dev notes and everything else in between"
     description = "Faiz Mokhtar's personal blog about everything"
     copyright = "Faiz Mokhtar" # copyright holder, otherwise will use site title
     opengraph = true # Enable OpenGraph if true
