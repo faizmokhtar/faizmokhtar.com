@@ -6,17 +6,17 @@ tags:
   - go
 comments: true
 ---
-I started using Goland yesterday caused I heard good things about it from my friends who did Go development.
+I started using [GoLang](https://www.jetbrains.com/go/) yesterday caused I heard good things about it from my friends who did Go development.
 
 When I try to use the debugger functionality, I got the following error
 
-```
-could not launch process: debugserver or lldb-server not found: install XCode's command line tools or lldb-server
-```
+
+> could not launch process: debugserver or lldb-server not found: install XCode's command line tools or lldb-server
+
 
 ## How Do I Fix It?
 
-When I googled, it seems this issue is related to go-delve and macOS Catalina. Running the following command on my terminal seems to fix it:
+When I googled, it seems this issue is related to [Delve](https://github.com/go-delve/delve), the debugger for Go and macOS Catalina. Running the following command on my terminal will fix it:
 
 ```
 $~ xcode-select --install
