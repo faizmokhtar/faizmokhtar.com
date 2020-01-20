@@ -6,7 +6,7 @@ tags:
   - go
 comments: true
 ---
-I started using [GoLang](https://www.jetbrains.com/go/) yesterday caused I heard good things about it from my friends who did Go development.
+I started using [GoLand](https://www.jetbrains.com/go/) yesterday caused I heard good things about it from my friends who did Go development.
 
 When I try to use the debugger functionality, I got the following error
 
@@ -16,10 +16,10 @@ When I try to use the debugger functionality, I got the following error
 
 ## How Do I Fix It?
 
-When I googled, it seems this issue is related to [Delve](https://github.com/go-delve/delve), the debugger for Go and macOS Catalina. Running the following command on my terminal will fix it:
+When I googled, it seems this issue is more related to [Delve](https://github.com/go-delve/delve), the debugger for Go and macOS Catalina. Running the following command on my terminal will fix it
 
 ```
 $~ xcode-select --install
 ```
 
-Kind of weird since I always have XCode installed on my local machine and I'm pretty sure I have run the commands multiple times before. welp, as long as the issue is fix I should be glad. 🤷‍♂️
+It's quite weird as I always have Xcode installed on my local machine and I'm pretty sure I have ran the commands multiple times before. welp. 🤷‍♂️
