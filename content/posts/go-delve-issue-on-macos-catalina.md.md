@@ -14,6 +14,8 @@ When I try to use the debugger functionality, I got the following error
 could not launch process: debugserver or lldb-server not found: install XCode's command line tools or lldb-server
 ```
 
+## How to Fix It?
+
 When I googled, it seems this issue is related to go-delve and macOS Catalina. Running the following command on my terminal seems to fix it:
 
 ```
