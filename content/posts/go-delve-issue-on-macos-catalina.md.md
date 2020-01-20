@@ -7,7 +7,7 @@ tags:
   - debugging
 comments: true
 ---
-I started using [GoLand](https://www.jetbrains.com/go/) yesterday caused I heard good things about it from my friends who did Go development.
+I started using [GoLand](https://www.jetbrains.com/go/) yesterday after hearing good things about it from my friends who is doing Go development.
 
 When I try to use the debugger functionality, I got the following error
 
