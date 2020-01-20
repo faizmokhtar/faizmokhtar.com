@@ -4,6 +4,7 @@ date: 2020-01-20T08:44:11.971Z
 tags:
   - tools
   - go
+  - debugging
 comments: true
 ---
 I started using [GoLand](https://www.jetbrains.com/go/) yesterday caused I heard good things about it from my friends who did Go development.
