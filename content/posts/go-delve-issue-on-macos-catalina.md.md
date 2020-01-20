@@ -9,7 +9,7 @@ comments: true
 ---
 I started using [GoLand](https://www.jetbrains.com/go/) yesterday after hearing good things about it from my friends who is doing Go development.
 
-When I try to use the debugger functionality, I got the following error
+When I try to use the GoLand's debugger, I got the following error;
 
 
 > could not launch process: debugserver or lldb-server not found: install XCode's command line tools or lldb-server
