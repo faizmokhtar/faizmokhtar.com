@@ -22,7 +22,7 @@ Here's how;
 
 ![How to set Goland File Watchers to run go fmt](/images/uploads/goland-gofmt.png "How to set Goland File Watchers to run go fmt")
 
-That's it. Now, when you saved your code, the [file watchers][2] will detect this changes and run `go fmt`. You can even use the [file watchers][2] to run `goimports`, `go vet` or anything else that you think make sense.
+That's it. Now when you saved your code, the [file watchers][2] will detect this changes and run `go fmt`. You can even use the [file watchers][2] to run `goimports`, `go vet` or anything else that you think make sense.
 
 ##### Resources:
 1. [GoLand integrations with go tools][3]
