@@ -1,25 +1,47 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "today I learned"
-theme = "hugo-ink"
+title = "Today I Learned!"
+theme = "alageek"
 paginate = "8"
 disqusShortname = "faizmokhtar"
 googleAnalytics = "UA-45192347-5"
 
-copyright = "© Be Nice"
+[params]
+    copyright = "© Be Nice"
+    latestpostcount = 5
+    logofile = "https://s.gravatar.com/avatar/12b7c902b4ef0620c2fd38ef9f4a4510?s=200"
+    highlightjs = true
+    highlightjslanguages = [ "bash", "swift", "diff", "yaml" ]
+    toc = true
+    posts_navigation = true
+    progressively = true
+    github = "?"
+    linkedin = "?"
+    telegram = "?"
+    twitter = "?"
+    mastodon_url = "https://mastodon.url/?"
+    email = "?@localhost"
 
-pygmentsstyle = "vs"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+[[params.best_posts]]
+title = "Migrate to Hugo from Jekyll"
+url = "/blog/migrate-from-jekyll/"
+
+[[menu.primary]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+[[menu.primary]]
+    identifier = "about"
+    name = "About"
+    url = "/_about/"
+    weight = 20
 
 [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 2
 [[menu.feed]]
     name = "rss"
     url = "/index.xml"
@@ -27,22 +49,6 @@ pygmentscodefencesguesssyntax = true
 [Author]
   name = "Faiz Mokhtar"
   bio = "A software engineer."
-
-[params]
-	featherIconsCDN = true
-    avatar = "https://s.gravatar.com/avatar/12b7c902b4ef0620c2fd38ef9f4a4510?s=200"
-
-    footer = "&copy; Be nice."
-    subtitle = "Notes on Swift, iOS, Go and software engineering"
-    description = "Faiz Mokhtar's personal blog about everything"
-    copyright = "Faiz Mokhtar" # copyright holder, otherwise will use site title
-    opengraph = true # Enable OpenGraph if true
-    twitter_cards = true # Enable Twitter Cards if true
-    readmore = false # Show "Read more" button in list if true
-    authorbox = false # Show authorbox at bottom of pages if true
-    toc = false # Enable Table of Contents
-    post_navigation = true # Show post navigation at bottom of pages if true
-    postSections = ["posts"] # the section pages to show on home page and the "Recent articles" widget
 
 [params.sidebar]
     home = "right"   # Configure layout for home page

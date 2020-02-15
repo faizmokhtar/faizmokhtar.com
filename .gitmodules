@@ -4,3 +4,6 @@
 [submodule "themes/hugo-ink"]
 	path = themes/hugo-ink
 	url = https://github.com/knadh/hugo-ink.git
+[submodule "themes/alageek"]
+	path = themes/alageek
+	url = https://github.com/faizmokhtar/hugo-alageek-theme
