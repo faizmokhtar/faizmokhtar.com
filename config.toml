@@ -7,7 +7,7 @@ disqusShortname = "faizmokhtar"
 googleAnalytics = "UA-45192347-5"
 
 [params]
-    copyright = "© Be Nice"
+    copyright = "© 2020. Be Nice"
     latestpostcount = 5
     logofile = "https://s.gravatar.com/avatar/12b7c902b4ef0620c2fd38ef9f4a4510?s=200"
     highlightjs = true
@@ -15,16 +15,12 @@ googleAnalytics = "UA-45192347-5"
     toc = true
     posts_navigation = true
     progressively = true
-    github = "?"
-    linkedin = "?"
-    telegram = "?"
-    twitter = "?"
-    mastodon_url = "https://mastodon.url/?"
-    email = "?@localhost"
-
-[[params.best_posts]]
-title = "Migrate to Hugo from Jekyll"
-url = "/blog/migrate-from-jekyll/"
+    latest_posts = true
+    github = "faizmokhtar"
+    linkedin = "faizmokh"
+    telegram = "@faizmokh"
+    twitter = "faizmokh"
+    email = "mfmokhtar@gmail.com"
 
 [[menu.primary]]
     identifier = "posts"
@@ -33,10 +29,22 @@ url = "/blog/migrate-from-jekyll/"
     weight = 10
 
 [[menu.primary]]
+    identifier = "tips"
+    name = "Tips"
+    url = "/categories/"
+    weight = 20
+
+[[menu.primary]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+[[menu.primary]]
     identifier = "about"
     name = "About"
-    url = "/_about/"
-    weight = 20
+    url = "/about/"
+    weight = 40
 
 [[menu.main]]
     name = "Home"
