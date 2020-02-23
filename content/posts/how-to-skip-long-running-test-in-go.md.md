@@ -21,9 +21,16 @@ func TestLongRunning(t *testing.T) {
 
 To skip it, provide a `-short` flag in `go test`
 ```
-$~ go test -short
+$~ go test -v -short
 ```
 
+You can confirm this behaviour by checking at the test output
+```
+--- SKIP: TestLongRunningTest (0.00s)
+    main_test.go:27: skipping long running test in short mode
+PASS
+ok      github.com/faizmokhtar/toytesting       0.385s
+```
 
 References:
 1. https://golang.org/pkg/testing/#Short
