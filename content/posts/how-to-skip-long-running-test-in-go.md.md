@@ -22,7 +22,7 @@ func TestLongRunning(t *testing.T) {
 }
 ```
 
-Then when you run `go test`, provide a `-short` flag to skip this test.
+Then when you run `go test`, simply provide a `-short` flag to skip the test.
 
 For example:
 ```
