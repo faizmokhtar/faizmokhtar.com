@@ -7,7 +7,7 @@ tags:
   - go
 comments: true
 ---
-Here's a quick tip on how to skip a long running tests in Go. 
+Here's a quick tip on how to skip long running tests in Go. 
 
 In your long running test, add a `t.Short()` boolean check. 
 
