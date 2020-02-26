@@ -39,7 +39,7 @@ PASS
 ok      github.com/faizmokhtar/toytesting       0.385s
 ```
 
-That's it. Hope you will find this tip to be useful.
+That's it. Hope you'll find this tip useful.
 
 References:
 1. [Go' testing **Short** documentation](https://golang.org/pkg/testing/#Short)
