@@ -9,7 +9,7 @@ comments: true
 ---
 Here's a quick tip on how to skip long running tests in Go. 
 
-In your long running test, add a `t.Short()` boolean check. 
+In your test function that you want to skip, add a `t.Short()` boolean check. 
 
 For example:
 ```go
