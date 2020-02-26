@@ -7,8 +7,11 @@ tags:
   - go
 comments: true
 ---
-In Go `testing` package, there is a way for you to skip a long running tests by providing a `-short` flag.
+Here's a quick tip on how to skip a long running tests in Go. 
 
+In your long running test, add a `t.Short()` boolean check. 
+
+For example:
 ```go
 func TestLongRunning(t *testing.T) {
     if t.Short() {
@@ -19,12 +22,16 @@ func TestLongRunning(t *testing.T) {
 }
 ```
 
-To skip it, provide a `-short` flag in `go test`
+Then when you run `go test`, provide a `-short` flag to skip this test.
+
+For example:
 ```
 $~ go test -v -short
 ```
 
-You can confirm this behaviour by checking at the test output
+You can confirm this behaviour by checking test output. You should see `skipping long running test in short mode` message in the output.
+
+For example:
 ```
 --- SKIP: TestLongRunningTest (0.00s)
     main_test.go:27: skipping long running test in short mode
@@ -32,5 +39,8 @@ PASS
 ok      github.com/faizmokhtar/toytesting       0.385s
 ```
 
+That's it. Hope you will find this tip to be useful.
+
 References:
-1. https://golang.org/pkg/testing/#Short
+1. [Go' testing **Short** documentation](https://golang.org/pkg/testing/#Short)
+2. [Stack Overflow - Skip some tests with Go](https://stackoverflow.com/questions/24030059/skip-some-tests-with-go-test)
