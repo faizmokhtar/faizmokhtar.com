@@ -42,5 +42,6 @@ ok      github.com/faizmokhtar/toytesting       0.385s
 That's it. Hope you'll find this tip useful.
 
 References:
-1. [Go' testing **Short** documentation](https://golang.org/pkg/testing/#Short)
-2. [Stack Overflow - Skip some tests with Go](https://stackoverflow.com/questions/24030059/skip-some-tests-with-go-test)
+- [Go' testing **Short** documentation](https://golang.org/pkg/testing/#Short)
+- [Stack Overflow - Skip some tests with Go]
+(https://stackoverflow.com/questions/24030059/skip-some-tests-with-go-test)
