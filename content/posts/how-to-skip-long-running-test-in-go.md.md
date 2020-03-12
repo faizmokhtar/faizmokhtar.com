@@ -12,7 +12,7 @@ Here's a quick tip on how to skip long running tests in Go.
 In your test function that you want to skip, add a `t.Short()` boolean check. 
 
 For example:
-```go
+```
 func TestLongRunning(t *testing.T) {
     if t.Short() {
         t.Skip("skip long running test")
