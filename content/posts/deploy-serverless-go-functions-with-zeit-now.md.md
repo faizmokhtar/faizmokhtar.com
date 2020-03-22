@@ -18,3 +18,7 @@ Create a handler inside `api/` folder
 ## Deploy to Now
 
 ## Conclusion
+
+## References
+
+1. https://zeit.co/docs/v2/serverless-functions/introduction
