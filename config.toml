@@ -1,67 +1,48 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "Today I Learned!"
-theme = "alageek"
+title = "Today I Learned"
+theme = "mainroad"
 paginate = "8"
 disqusShortname = "faizmokhtar"
 googleAnalytics = "UA-45192347-5"
 
-[params]
-    copyright = "© 2020. Be Nice"
-    latestpostcount = 5
-    logofile = "https://s.gravatar.com/avatar/12b7c902b4ef0620c2fd38ef9f4a4510?s=200"
-    highlightjs = true
-    highlightjslanguages = [ "bash", "swift", "diff", "yaml" ]
-    toc = true
-    posts_navigation = true
-    show_projects = true
-    progressively = true
-    latest_posts = true
-    github = "faizmokhtar"
-    linkedin = "faizmokh"
-    telegram = "@faizmokh"
-    twitter = "faizmokh"
-    email = "mfmokhtar@gmail.com"
-
-[[menu.primary]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-
-[[menu.primary]]
-    identifier = "tips"
-    name = "Tips"
-    url = "/categories/"
-    weight = 20
-
-[[menu.primary]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 30
-
-[[menu.primary]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 40
+[Author]
+    name = "Faiz Mokhtar"
+    bio = "Hi I'm Faiz. I m a software engineer that's currently based in Malaysia. I specialized in iOS development and mobile app CI/CD. I am not actively looking right now but I'm open for new opportunities."
+    avatar = "https://s.gravatar.com/avatar/12b7c902b4ef0620c2fd38ef9f4a4510?s=200"
 
 [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
 [[menu.feed]]
     name = "rss"
     url = "/index.xml"
 
-[Author]
-  name = "Faiz Mokhtar"
-  bio = "A software engineer."
+[params]
+    subtitle = "Faiz's notes on software development"
+    description = "Faiz Mokhtar's notes on software development"
+    copyright = "© 2020. Be Nice"
+    opengraph = true
+    twitter_cards = true
+    readmore = true
+    authorbox = true
+    latestpostcount = 5
+    post_navigation = true
+    postSections = ["posts"]
+    highlightColor = "#ea4c89" # Override highlight color
 
 [params.sidebar]
     home = "right"   # Configure layout for home page
-    list = "right"   # Configure layout for list pages
+    list = false   # Configure layout for list pages
     single = false # Configure layout for single pages
     # Enable widgets in given order
     widgets = ["recent", "taglist", "social"]
@@ -70,17 +51,9 @@ googleAnalytics = "UA-45192347-5"
     recent_num = 5 # Set the number of articles in the "Recent articles" widget
     tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
 
-[[params.social]]
-    name = "Twitter"
-    icon = "twitter"
-    url = "https://twitter.com/faizmokh"
-
-[[params.social]]
-    name = "Github"
-    icon = "github"
-    url = "https://github.com/faizmokhtar"
-
-[[params.social]]
-    name = "RSS"
-    icon = "rss"
-    url = "/index.xml"
+[params.widgets.social]
+    twitter = "faizmokh"
+    linkedin = "faizmokh"
+    telegram = "@faizmokh"
+    github = "faizmokhtar"
+    email = "mfmokhtar@gmail.com"
