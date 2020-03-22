@@ -1,5 +1,5 @@
 ---
-title: Deploy Serverless Go Functions with ZEIT Now
+title: How To Deploy Serverless Go Functions With ZEIT Now
 date: 2020-03-22T14:38:23.008Z
 categories:
   - howto
