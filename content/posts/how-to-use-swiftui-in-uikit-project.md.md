@@ -29,7 +29,7 @@ self.present(vc, animated: true, completion: nil)
 
 Using it in Storyboard requires a little bit more work.
 
-1. First, add a Hosting View Controller and create a segue to it
+1. First, add a **Hosting View Controller** and create a segue to it
 
    ![Search for UIHostingController](/images/uploads/uihosting-storyboard.png "Search for UIHostingController in Storyboard")
 
