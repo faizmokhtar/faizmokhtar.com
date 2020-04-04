@@ -18,27 +18,30 @@ let swiftUIView = SwiftUIView()
 
 ## Initializing it programmatically
 
-To initialize it programmatically, set the SwiftUI `View` as the `rootView` of the `UIHostingController`
+To initialize it programmatically, set the SwiftUI `View` as the `rootView` of the `UIHostingController`.
 
 ```
-let vc = UIHostingController(rootView: ContentView())
+let vc = UIHostingController(rootView: swiftUIView)
 self.present(vc, animated: true, completion: nil)
 ```
 
 ## Initializing it in Storyboard
 
-To initialize it in Storyboard:
+Using it in Storyboard requires a little bit more work.
 
-1. Add a Hosting View Controller and create a segue to it
+1. First, add a Hosting View Controller and create a segue to it
 
    ![Search for UIHostingController](/images/uploads/uihosting-storyboard.png "Search for UIHostingController in Storyboard")
-2. Create an `IBSegueAction` where you can init the `UIHostingController` like so
+
+2. Then, create an `IBSegueAction` where you can init the `UIHostingController` like so
 
 ```
  @IBSegueAction func openSwiftUIView(_ coder: NSCoder) -> UIViewController? {
      return UIHostingController(coder: coder, rootView: swiftUIView))
  }
 ```
+
+That's it.
 
 ##### References:
 
