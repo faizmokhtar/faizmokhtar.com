@@ -8,7 +8,7 @@ tags:
   - xcode
 comments: true
 ---
-Did you know that SwiftUI can be use in UIKit project? To use SwiftUI in UIKit project, you have to make use of `UIHostingViewController`. `UIHostingViewController` is a `UIViewController` that "host" a SwiftUI view. Get it? 😉
+Did you know that SwiftUI can be use in UIKit project? To use SwiftUI in UIKit project, you have to make use of `UIHostingViewController`. It is a `UIViewController` that basically "host" a SwiftUI view.
 
 Assuming you have a SwiftUI `View` named `SwiftUIView` like so:
 
