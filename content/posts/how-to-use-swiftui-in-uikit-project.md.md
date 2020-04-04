@@ -1,5 +1,5 @@
 ---
-title: How to use SwiftUI in UIKit Project
+title: How to Use SwiftUI in UIKit Project
 date: 2020-04-04T10:09:30.345Z
 categories:
   - little-bites
