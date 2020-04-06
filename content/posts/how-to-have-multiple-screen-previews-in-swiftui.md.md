@@ -1,5 +1,5 @@
 ---
-title: How to Have Multiple Screen Previews in Swiftui
+title: How to Have Multiple Screen Previews in SwiftUI
 date: 2020-04-06T12:39:36.964Z
 categories:
   - little-bites
