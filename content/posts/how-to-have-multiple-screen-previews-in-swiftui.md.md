@@ -34,7 +34,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
-This will display the `View` that you have created in 3 screen previews in the following order:
+This will display the `View` that you have created in 3 previews with the following order:
 
 1. Display it in iPhone 11
 2. Display it in iPhone 8 with dark mode enabled and large accessibility size font set
