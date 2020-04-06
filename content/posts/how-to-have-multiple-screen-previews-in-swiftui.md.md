@@ -34,6 +34,12 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
+This will display the `View` that you have created in 3 previews with the following order:
+
+1. Display it in iPhone 11
+2. Display it in iPhone 8 with dark mode enabled and large accessibility size font set
+3. Display it in iPhone SE
+
 Here's how the above code will look like in action
 
 ![Xcode 11 Multiple Previews](/images/uploads/preview.gif)
