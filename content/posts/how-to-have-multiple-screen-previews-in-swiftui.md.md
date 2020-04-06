@@ -34,7 +34,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
- Here's the above code in action
+Here's how the above code will look like in action
 
 ![Xcode 11 Multiple Previews](/images/uploads/preview.gif)
 
