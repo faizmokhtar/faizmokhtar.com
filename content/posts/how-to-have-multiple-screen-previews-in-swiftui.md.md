@@ -9,7 +9,7 @@ tags:
   - swiftui
 comments: true
 ---
-Today I learned that you can actually create multiple screen previews in SwiftUI.
+Today I learned that you can actually create multiple Xcode screen previews in SwiftUI.
 
 Assuming you have a SwiftUI `View` named `ContentView`. In the `PreviewProvider`, create a `Group` and init multiple childs `ContentView()` inside it. For example:
 
