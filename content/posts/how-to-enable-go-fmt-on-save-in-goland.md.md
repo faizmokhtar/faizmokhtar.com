@@ -2,7 +2,7 @@
 title: How To Enable Go Fmt On Save In GoLand
 date: 2020-01-26T04:12:02.784Z
 categories:
-  - ''
+  - 'little-bites'
 tags:
   - tools
   - go

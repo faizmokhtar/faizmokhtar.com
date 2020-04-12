@@ -3,7 +3,7 @@ title: About
 authorbox: false
 sidebar: false
 menu: main
-disable_comments: true
+comments: false
 ---
 
 

@@ -26,19 +26,21 @@ googleAnalytics = "UA-45192347-5"
 [[menu.feed]]
     name = "rss"
     url = "/index.xml"
+    weight = 4
 
 [params]
     subtitle = "Faiz's notes on software development"
     description = "Faiz Mokhtar's notes on software development"
-    copyright = "© 2020. Be Nice"
+    copyright = "Be Nice"
     opengraph = true
     twitter_cards = true
-    readmore = true
     authorbox = true
     latestpostcount = 5
     post_navigation = true
     postSections = ["posts"]
     highlightColor = "#ea4c89" # Override highlight color
+    post_meta = ["date", "categories", "translations"] # Order of post meta information
+    dateformat = "02 Jan 2006" # Change the format of dates
 
 [params.sidebar]
     home = "right"   # Configure layout for home page
