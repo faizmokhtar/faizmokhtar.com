@@ -14,7 +14,7 @@ It is called [type assertion][1]. Here is how it looks like:
 str := value.(string)
 ```
 
-It gives you access to the interface's concrete value. It asserts the values stored in `x` is of type `T` and that `x` is not nil.
+It gives you access to the interface's concrete value. It asserts if the values stored in `x` is of type `T` and that `x` is not nil.
 
 Type assertion can also return two values: the concrete underlying value and a boolean value that check if the assertion is true.
 
