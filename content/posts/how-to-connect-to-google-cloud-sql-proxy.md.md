@@ -1,5 +1,5 @@
 ---
-title: How to Connect to Google Cloud SQL Proxy
+title: How to Connect to Google Cloud SQL with Cloud SQL Proxy
 date: 2020-05-10T14:26:04.287Z
 categories:
   - little-bites
@@ -10,7 +10,7 @@ comments: true
 ---
 [Cloud SQL Proxy][1] is one of the ways to connect to your [Cloud SQL][2] instance. It's useful if you want to securely connect to [Cloud SQL][2] from your local applications.
 
-Here are the steps to set [Cloud SQL Proxy][1] on your local machines:
+Here are the steps to setup [Cloud SQL Proxy][1] on your local machines:
 
 ## 1. Download and Setup Cloud SQL Proxy
 
@@ -72,7 +72,7 @@ If everything is working fine, you will get an output similar like this
 
 That's pretty much it. You should be connected to your Cloud SQL from your local machine now.
 
-### Error Troubleshooting:
+## Error Troubleshooting
 
 If you happened to get following error:
 
