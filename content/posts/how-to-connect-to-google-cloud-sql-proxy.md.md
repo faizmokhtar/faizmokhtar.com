@@ -12,7 +12,7 @@ comments: true
 
 Here are the steps to setup [Cloud SQL Proxy][1] on your local machines:
 
-## 1. Download and Setup Cloud SQL Proxy
+## 1. Download and Setup Cloud SQL Proxy (macOS)
 
 First of all you have to download it. I would recommend putting it at root (`~/`) folder.
 
