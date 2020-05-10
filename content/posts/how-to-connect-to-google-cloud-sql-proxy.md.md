@@ -38,9 +38,9 @@ Once you have created it, list it down to get the email of the service account.
 $~ gcloud iam service-accounts list
 ```
 
-Next, allow your service account to connect to the Cloud SQL proxy on your behalf. You will do this by giving `Cloud SQL Client` role to the service account. 
+Next, allow your service account to connect to the Cloud SQL proxy on your behalf. You can do this by giving `Cloud SQL Client` role to the service account. 
 
-Replace `[PROJECT_ID]` and `[SERVICE_ACCOUNT_EMAIL]` with your own Google Project ID and the service account email that you got from the command before.
+Run the following commands. Replace `[PROJECT_ID]` and `[SERVICE_ACCOUNT_EMAIL]` with your own Google Project ID and the service account email that you got from the command before.
 
 ```
 $~ gcloud projects add-iam-policy-binding [PROJECT_ID] --member \
