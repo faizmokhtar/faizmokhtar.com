@@ -1,7 +1,7 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "Today I Learned"
-theme = "mainroad"
+title = "til"
+theme = "hugo-theme-hello-friend"
 paginate = "8"
 disqusShortname = "faizmokhtar"
 googleAnalytics = "UA-45192347-5"
@@ -42,20 +42,13 @@ googleAnalytics = "UA-45192347-5"
     post_meta = ["date", "categories", "translations"] # Order of post meta information
     dateformat = "02 Jan 2006" # Change the format of dates
 
-[params.sidebar]
-    home = "right"   # Configure layout for home page
-    list = false   # Configure layout for list pages
-    single = false # Configure layout for single pages
-    # Enable widgets in given order
-    widgets = ["recent", "taglist", "social"]
-
-[params.widgets]
-    recent_num = 5 # Set the number of articles in the "Recent articles" widget
-    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
-
 [params.widgets.social]
     twitter = "faizmokh"
     linkedin = "faizmokh"
     telegram = "@faizmokh"
     github = "faizmokhtar"
     email = "mfmokhtar@gmail.com"
+
+[languages.en.params.logo]
+    logoText = "./til"
+    logoHomeLink = "/"
