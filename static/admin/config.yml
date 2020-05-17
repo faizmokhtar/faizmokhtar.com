@@ -10,7 +10,7 @@ collections:
     label: "Post"
     folder: "content/posts"
     create: true
-    slug: "{{slug}}.md"
+    slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish date", name: "date", widget: "datetime"}
