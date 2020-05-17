@@ -29,6 +29,7 @@ googleAnalytics = "UA-45192347-5"
     weight = 4
 
 [params]
+    defaultTheme = "light"
     subtitle = "Faiz's notes on software development"
     description = "Faiz Mokhtar's notes on software development"
     copyright = "Be Nice"
@@ -40,7 +41,8 @@ googleAnalytics = "UA-45192347-5"
     postSections = ["posts"]
     highlightColor = "#ea4c89" # Override highlight color
     post_meta = ["date", "categories", "translations"] # Order of post meta information
-    dateformat = "02 Jan 2006" # Change the format of dates
+    dateFormatSingle = "02 Jan 2006"
+    dateFormatList = "02 Jan 2006"
 
 [params.widgets.social]
     twitter = "faizmokh"
