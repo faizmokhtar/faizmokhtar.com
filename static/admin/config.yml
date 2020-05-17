@@ -18,3 +18,12 @@ collections:
       - {label: "Tags", name: "tags", required: false, widget: "list"}
       - {label: "Enable comments", name: "comments", default: true, widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
