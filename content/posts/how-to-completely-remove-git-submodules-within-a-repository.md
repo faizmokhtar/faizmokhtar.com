@@ -10,7 +10,7 @@ comments: true
 ---
 I found myself having to google this multiple times so I decide to write it here as a quick references for myself.
 
-[Git submodules][1] is a way for you to keep a git repository as a subdirectory of another git repository. It's useful when you want to incorporate and keep track of external code or framework that your project depends on. It's like a poor man version of `npm` or `cocoapods`.
+[Git submodules][1] is a way for you to keep a git repository as a subdirectory of another git repository. It's useful when you want to incorporate and keep track of external code or framework that your project depends on. It's like a poor man's version of `npm` or `cocoapods`.
 
 Anyway, to add a git submodules is very easy. It's just simple a one liner. Eg:
 
