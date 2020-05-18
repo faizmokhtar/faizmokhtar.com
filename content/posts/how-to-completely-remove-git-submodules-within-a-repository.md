@@ -18,7 +18,7 @@ Anyway, to add a git submodules is very easy. It's just simple a one liner. Eg:
 git submodule add git@github.com:faizmokhtar/example-repo library/example-submodule
 ```
 
-That's it. But the steps to remove it are very tedious and it's something that I always forgot how to. So here are the steps
+That's it. But the steps to remove it are very tedious and it's something that I always forgot how to. So here are the steps to completely remove it from your repository.
 
 ## To Completely Remove Git Submodule
 
