@@ -45,7 +45,9 @@ That's it. But the steps to remove it are very tedious and it's something that I
    ```
 7. Now, there should be some unstaged changes in your git staging area. Stage it and commit all the changes.
 
-That should be it. Maybe you can turn this into a one liner bash script. Until next time. 
+That should be it. Maybe you can turn this into a one liner bash script. 
+
+Until next time. ✌️
 
 
 [1]:https://github.blog/2016-02-01-working-with-submodules/
