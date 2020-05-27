@@ -24,7 +24,7 @@ There are multiple ways to solve this issue:
 
 3. **Copying the latest device support files to `DeviceSupport` folder** - I just discovered this today and still in awe on how simple it is. I will list the steps down below.
 
-## Fixing "Could Not Locate Device Support Files" Error Issue
+## To fix "Could Not Locate Device Support Files" Error Issue with new device support file
 
 1. Go to the following Github repo: [iGhibli/iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport/tree/master/DeviceSupport)
 2. Find the zip files that's matching your device's iOS version and download it.
