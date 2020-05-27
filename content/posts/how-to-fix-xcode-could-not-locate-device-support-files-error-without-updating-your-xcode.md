@@ -39,7 +39,7 @@ That's it. You should be able to run your app in your device now. Hope you will 
 
 Until next time. ✌️
 
-[^1]: [@steipete] did an awesome job of maintaining a [gist of the command](https://gist.github.com/steipete/d9b44d8e9f341e81414e86d7ff8fb62d) to refer too.
+[^1]: [@steipete](twitter.com/steipete) did an awesome job of maintaining a [gist of the command](https://gist.github.com/steipete/d9b44d8e9f341e81414e86d7ff8fb62d) to refer too.
 
 ## References:
 1. [github.com/iGhibli/iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport)
