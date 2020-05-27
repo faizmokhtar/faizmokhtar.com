@@ -8,15 +8,15 @@ tags:
   - tools
 comments: true
 ---
-There may be a time when you try to run your app in your device, you get the following error:
+There may be a time when you try to run your app in your device and you get the following error:
 
 > **Could not locate device support files.**
 
 > This iPhone (Model ...) is running iOS 13.4 (11E608c), which may not be supported by this version of Xcode.
 
-This issue usually happened when you are still developing your app using old version of Xcode but your device have already been upgraded to latest iOS version. 
+This issue usually happened when you are still developing your app using old version of Xcode but your device have already been upgraded to latest iOS version that is not supported by Xcode. 
 
-There are multiple ways to solve this issue that I know of:
+There are multiple ways to solve this issue:
 
 1. **Upgrade your Xcode to the latest version** - While this is the most obvious way to fix the issue, it could be your most hardest too. Depending on the situation, you might have to update all your projects issues before upgrading (Unsupported swift version, Unsupported SDK version, etc). That's a lot of work
 
