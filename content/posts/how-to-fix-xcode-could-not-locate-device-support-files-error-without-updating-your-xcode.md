@@ -20,9 +20,7 @@ There are multiple ways to solve this issue:
 
 1. **Upgrade your Xcode to the latest version** - While this is the most obvious way to fix the issue, it could be your most hardest too. Depending on the situation, you might have to update all your projects issues before upgrading (Unsupported swift version, Unsupported SDK version, etc). That's a lot of work
 
-2. **Keep two versions of Xcode installed** - This have been my preferred option whenever there's a new iOS beta version dropped and I couldn't wait to upgrade my device (living on the edge baby!). 
-
-   You have to symlink the `DeviceSupport/` folder from the beta or latest version to the stable version that you've been using.[^1] However this option might not be feasible if you have a limited disk space on your machine.
+2. **Keep two versions of Xcode installed** - This have been my preferred option whenever there's a new iOS beta version dropped and I couldn't wait to upgrade my device (living on the edge baby!). You have to symlink the `DeviceSupport/` folder from the beta or latest version to the stable version that you've been using.[^1] However this option might not be feasible if you have a limited disk space on your machine.
 
 3. **Copying the latest device support files to `DeviceSupport` folder** - I just discovered this today and still in awe on how simple it is. I will list the steps down below.
 
