@@ -1,9 +1,9 @@
 ---
-title: 'How to Fix Xcode: "Could Not Locate Device Support Files" Error without
+title: 'How to Fix Xcode: "Could Not Locate Device Support Files" Error Without
   Updating Your Xcode'
 date: 2020-05-27T04:43:29.783Z
 categories:
-  - ""
+  - little-bites
 tags:
   - xcode
   - tools
