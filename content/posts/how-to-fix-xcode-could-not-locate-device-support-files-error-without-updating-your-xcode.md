@@ -42,3 +42,7 @@ Until next time. ✌️
 
 #### Footnotes:
 [^1]: [@steipete] did an awesome job of maintaining a [gist of the command](https://gist.github.com/steipete/d9b44d8e9f341e81414e86d7ff8fb62d) to refer too.
+
+## References:
+1. [github.com/iGhibli/iOS-DeviceSupport](https://github.com/iGhibli/iOS-DeviceSupport)
+2. [StackOverflow - Could not locate device support files in Xcode](https://stackoverflow.com/questions/54624850/could-not-locate-device-support-files-in-xcode)
