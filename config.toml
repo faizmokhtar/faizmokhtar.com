@@ -1,6 +1,6 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "til"
+title = "faizmokh"
 theme = "hugo-theme-hello-friend"
 paginate = "8"
 disqusShortname = "faizmokhtar"
@@ -23,10 +23,14 @@ googleAnalytics = "UA-45192347-5"
     name = "Tags"
     url = "/tags/"
     weight = 3
+[[menu.main]]
+    name="TIL"
+    url = "https://til.faizmokhtar.com/"
+    weight = 4
 [[menu.feed]]
     name = "rss"
     url = "/index.xml"
-    weight = 4
+    weight = 5
 
 [params]
     defaultTheme = "light"
@@ -52,5 +56,5 @@ googleAnalytics = "UA-45192347-5"
     email = "mfmokhtar@gmail.com"
 
 [languages.en.params.logo]
-    logoText = "./til"
+    logoText = "./faizmokh"
     logoHomeLink = "/"
