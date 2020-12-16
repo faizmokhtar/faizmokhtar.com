@@ -1,20 +1,18 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "faizmokh"
-theme = "hugo-theme-hello-friend"
-paginate = "8"
-disqusShortname = "faizmokhtar"
+title = "@faizmokh"
+theme = "hugo-bearblog"
 googleAnalytics = "UA-45192347-5"
+copyright = "Copyright © 2020, Faiz Mokhtar."
+
+hideMadeWithLine = true
+enableRobotsTXT = true
 
 [Author]
     name = "Faiz Mokhtar"
     bio = "Hi I'm Faiz. I m a software engineer that's currently based in Malaysia. I specialized in iOS development and mobile app CI/CD. I am not actively looking right now but I'm open for new opportunities."
     avatar = "https://s.gravatar.com/avatar/12b7c902b4ef0620c2fd38ef9f4a4510?s=200"
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
 [[menu.main]]
     name = "Posts"
     url = "/posts/"
@@ -33,6 +31,18 @@ googleAnalytics = "UA-45192347-5"
     weight = 5
 
 [params]
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+    # favicon = "images/favicon.png"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and
+    # https://gohugo.io/templates/internal#open-graph.
+    # images = ["images/share.png"]
+
+    hideMadeWithLine = true
+    title = "@faizmokh writes"
     defaultTheme = "light"
     subtitle = "Faiz's notes on software development"
     description = "Faiz Mokhtar's notes on software development"
@@ -47,14 +57,3 @@ googleAnalytics = "UA-45192347-5"
     post_meta = ["date", "categories", "translations"] # Order of post meta information
     dateFormatSingle = "02 Jan 2006"
     dateFormatList = "02 Jan 2006"
-
-[params.widgets.social]
-    twitter = "faizmokh"
-    linkedin = "faizmokh"
-    telegram = "@faizmokh"
-    github = "faizmokhtar"
-    email = "mfmokhtar@gmail.com"
-
-[languages.en.params.logo]
-    logoText = "./faizmokh"
-    logoHomeLink = "/"
