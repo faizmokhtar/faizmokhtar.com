@@ -1,5 +1,5 @@
 ---
-title: How to use Xcode 11's Swift Package Manager in your project
+title: "How to use Xcode 11's Swift Package Manager in your project"
 date: 2019-10-12T13:21:59.275Z
 categories:
   - Development

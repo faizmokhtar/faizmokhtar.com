@@ -14,7 +14,7 @@ enableRobotsTXT = true
     avatar = "https://s.gravatar.com/avatar/12b7c902b4ef0620c2fd38ef9f4a4510?s=200"
 
 [[menu.main]]
-    name = "Posts"
+    name = "Blogs"
     url = "/posts/"
     weight = 2
 [[menu.main]]
@@ -25,10 +25,6 @@ enableRobotsTXT = true
     name="TIL"
     url = "https://til.faizmokhtar.com/"
     weight = 4
-[[menu.feed]]
-    name = "rss"
-    url = "/index.xml"
-    weight = 5
 
 [params]
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
@@ -50,9 +46,6 @@ enableRobotsTXT = true
     opengraph = true
     twitter_cards = true
     authorbox = true
-    latestpostcount = 5
-    post_navigation = true
-    postSections = ["posts"]
     highlightColor = "#ea4c89" # Override highlight color
     post_meta = ["date", "categories", "translations"] # Order of post meta information
     dateFormatSingle = "02 Jan 2006"

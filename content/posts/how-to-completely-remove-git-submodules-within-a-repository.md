@@ -1,5 +1,5 @@
 ---
-title: How to completely remove git submodules within a repository
+title: "How to completely remove git submodules within a repository"
 date: 2020-05-18T14:13:29.189Z
 categories:
   - tips
