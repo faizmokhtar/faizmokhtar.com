@@ -1,5 +1,5 @@
 ---
-title: "Viewing Diff Since Latest Git Pull"
+title: "Viewing the git diff since the last git pull"
 date: 2018-08-07T17:32:55+08:00
 draft: false
 categories: [Development]

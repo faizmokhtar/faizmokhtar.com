@@ -1,5 +1,5 @@
 ---
-title: "Understanding LLDB Contexts in Xcode"
+title: "Understanding LLDB contexts in Xcode"
 date: 2019-03-26T16:35:41+08:00
 categories: [little-bites]
 tags: [lldb, xcode, ios, debugging]

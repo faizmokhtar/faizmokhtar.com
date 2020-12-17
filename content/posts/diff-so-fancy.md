@@ -1,5 +1,5 @@
 ---
-title: How to Prettify git diff Output with Diff So Fancy
+title: How to prettify git diff output with diff-so-fancy
 date: 2018-08-13T08:37:39.000Z
 categories:
   - Development

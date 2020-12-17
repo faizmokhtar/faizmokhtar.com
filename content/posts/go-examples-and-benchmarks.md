@@ -1,5 +1,5 @@
 ---
-title: "Go Examples and Benchmarks"
+title: "Howt to use Go examples and benchmarks"
 date: 2018-08-03T18:25:11+08:00
 draft: false
 categories: [Development]

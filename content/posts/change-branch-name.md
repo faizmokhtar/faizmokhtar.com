@@ -1,5 +1,5 @@
 ---
-title: "How to Change Git Branch Name"
+title: "How to change git branch name"
 date: 2018-09-13T17:26:34+08:00
 categories: [Development]
 tags: [git]

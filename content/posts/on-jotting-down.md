@@ -1,8 +1,8 @@
 ---
-title: "On Jotting Down"
+title: "On jotting down"
 date: 2018-08-02T19:35:19+08:00
 draft: false
-tags: [muse]
+tags: [random]
 ---
 
 I started reading Joel's [Joel on Software][1] today and there's this excerpt that I quite like

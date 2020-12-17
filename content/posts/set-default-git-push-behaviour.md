@@ -1,5 +1,5 @@
 ---
-title: "Set Default Git Push Behaviour"
+title: "How to set default git push behaviour"
 date: 2018-08-22T18:44:01+08:00
 categories: [Development]
 tags: [git]

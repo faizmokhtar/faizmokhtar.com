@@ -1,5 +1,5 @@
 ---
-title: Go Delve Debugger Issue On macOS Catalina
+title: How to fix Go Delve debugger issue on macOS Catalina
 date: 2020-01-20T08:44:11.971Z
 tags:
   - tools

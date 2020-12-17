@@ -1,5 +1,5 @@
 ---
-title: "zsh a Default Terminal Shell"
+title: "How to set zsh as the default terminal shell"
 date: 2018-08-20T22:41:07+08:00
 draft: false
 categories: [Development]

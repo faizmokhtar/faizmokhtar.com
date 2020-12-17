@@ -1,5 +1,5 @@
 ---
-title: How To Enable Go Fmt On Save In GoLand
+title: How to enable go fmt on save in GoLand IDE
 date: 2020-01-26T04:12:02.784Z
 categories:
   - 'little-bites'

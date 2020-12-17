@@ -1,5 +1,5 @@
 ---
-title: "Using Go Dep to Manage Dependencies"
+title: "How to use Go Dep to manage dependencies"
 date: 2019-02-11T22:09:13+08:00
 draft: false
 categories: [Development]

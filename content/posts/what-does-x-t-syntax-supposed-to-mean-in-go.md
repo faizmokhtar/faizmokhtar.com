@@ -1,5 +1,5 @@
 ---
-title: What Does  "x.(T)" Syntax Supposed to Mean in Go?
+title: What does  "x.(T)" syntax supposed to mean in Go?
 date: 2020-04-14T14:33:00.667Z
 categories:
   - little-bites

@@ -1,5 +1,5 @@
 ---
-title: How to Connect to Google Cloud SQL with Cloud SQL Proxy
+title: How to connect to Google Cloud SQL with Cloud SQL Proxy
 date: 2020-05-10T14:26:04.287Z
 categories:
   - little-bites
