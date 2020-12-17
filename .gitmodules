@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-hello-friend"]
 	path = themes/hugo-theme-hello-friend
 	url = git@github.com:faizmokhtar/hugo-theme-hello-friend.git
+[submodule "themes/hugo-bearblog"]
+	path = themes/hugo-bearblog
+	url = git@github.com:faizmokhtar/hugo-bearblog.git
