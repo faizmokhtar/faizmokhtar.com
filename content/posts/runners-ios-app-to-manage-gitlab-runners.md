@@ -7,7 +7,7 @@ tags:
   - maker
 comments: true
 ---
-I made a thing! An iOS app to remotely manage Gitlab runners. I wrote this app to solve one of the pain points that I frequently face back when I managed the CI machine that hosted Gitlab runners for my teams.
+I made a thing! It's an iOS app to remotely manage Gitlab runners. I wrote this app to solve one of the pain points that I frequently face back when I managed the CI machine that hosted Gitlab runners for my teams.
 
 My coworkers frequently asked me to check why their pipelines or runners were failing and so in a begrudging manner I would [VNC'd](https://en.wikipedia.org/wiki/Virtual_Network_Computing) into the machine and checked them.
 
