@@ -11,7 +11,13 @@ I made a thing! It's an iOS app to remotely manage Gitlab runners. I wrote this 
 
 My coworkers would frequently ask me to check why their pipelines or runners were failing and so in a begrudging manner, I would [VNC'd](https://en.wikipedia.org/wiki/Virtual_Network_Computing) into the machine and checked them.
 
+so...
+
+🥁🥁🥁
+
 ![A screenshot of Runners app on the App Store](/images/uploads/runners-appstore.jpeg)
+
+*TADAA!*
 
 This app solved these problems by providing easy access for me 
 
@@ -20,6 +26,8 @@ This app solved these problems by providing easy access for me
 
 Oh did I mentioned that this is my first SwiftUI and paid app? SwiftUI is really fun to write but there are some weird bugs that Apple needs to fix still.
 
-Anyway, it's available now on the [App Store](https://apps.apple.com/my/app/runners-manage-gitlab-runner/id1547639220) for the price of **US$1.99** or **MYR 7.90**. Do check it out!
+Anyway, it's available now on the [App Store](https://apps.apple.com/my/app/runners-manage-gitlab-runner/id1547639220) for the price of **US$1.99** or **MYR 7.90**. 
+
+Do check it out from the links below!
 
 👉 [Download it from the AppStore](https://apps.apple.com/my/app/runners-manage-gitlab-runner/id1547639220) 👈
