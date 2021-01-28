@@ -9,7 +9,7 @@ comments: true
 ---
 Today I'm exploring [Tuist - A project generation tools for Xcode projects][1]. It's a tool similar to [Xcodegen][2] or if you have a background in backend programming, you can see it as an[Infrastructure as Code][3] tool.
 
-One of the biggest selling points of this project aside from not having to deal with the dreaded `.xcodeproj` conflicts is that it uses Swift. I feel like it will help your team to easily adopt it.
+One of the biggest selling points of this project aside from not having to deal with the dreaded `.xcodeproj` conflicts is that it uses Swift to define project generation. I feel like it will help your team to easily adopt it.
 
 This blog post is just to document my process of learning [Tuist][1]. I have no prior experience using it in a personal or team settings.
 
