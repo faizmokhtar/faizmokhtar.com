@@ -64,7 +64,6 @@ This will bootstrap files necessary to create an iOS application. Running `tree`
 
 ```
 $~ tuist generate
-
 ```
 
 This will generate the `.xcodeproj`, `.xcworkspace`, and `Derived/` files necessary to run the project.
