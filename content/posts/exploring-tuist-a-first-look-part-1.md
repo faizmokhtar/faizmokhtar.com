@@ -7,7 +7,7 @@ tags:
   - xcode
 comments: true
 ---
-Today I'm exploring [Tuist - A project generation tools for Xcode projects][1]. It's a tool similar to [Xcodegen][2] or if you have a background in backend programming, you can see as [Infrastructure as Code][3]
+Today I'm exploring [Tuist - A project generation tools for Xcode projects][1]. It's a tool similar to [Xcodegen][2] or if you have a background in backend programming, you can see it as an[Infrastructure as Code][3] tool.
 
 One of the biggest selling points of this project aside from not having to deal with the dreaded `.xcodeproj` conflicts is that it uses Swift. I feel like it will help your team to easily adopt it.
 
