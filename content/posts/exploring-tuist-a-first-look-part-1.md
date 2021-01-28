@@ -19,7 +19,6 @@ The installation process is seamless and fast. I only have to run the following 
 
 ```
 $~ bash <(curl -Ls https://install.tuist.io)
-
 ```
 
 ## Project generation
@@ -28,7 +27,6 @@ Following the docs, I set up my first project. I need to create an empty directo
 
 ```
 tuist init --platform ios
-
 ```
 
 This will bootstrap files necessary to create an iOS application. Running `tree`, it will show the following directory structure
@@ -66,7 +64,6 @@ This will bootstrap files necessary to create an iOS application. Running `tree`
 
 ```
 $~ tuist generate
-
 ```
 
 This will generate the `.xcodeproj`, `.xcworkspace`, and `Derived/` files necessary to run the project.
