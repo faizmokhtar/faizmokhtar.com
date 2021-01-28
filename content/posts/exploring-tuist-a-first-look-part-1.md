@@ -11,7 +11,7 @@ Today I'm exploring [Tuist - A project generation tools for Xcode projects][1]. 
 
 One of the biggest selling points of this project aside from not having to deal with the dreaded `.xcodeproj` conflicts is that it uses Swift to define project generation. I feel like it will help your team to easily adopt it.
 
-This blog post is just to document my process of learning [Tuist][1]. I have no prior experience using it in a personal or team settings.
+Anyway, this blog post is just to document my process of learning [Tuist][1]. I have no prior experience using it in a personal or team settings.
 
 ## Installation
 
@@ -128,6 +128,18 @@ This will generate the `.xcodeproj`, `.xcworkspace`, and `Derived/` files necess
 24 directories, 27 files
 ````
 
+## Editing Project.swift
+
+I find editing `Project.swift` with text editor like [VSCode][5] difficult. Going through the docs, apparently there's a command to help this process. You can run the followings
+
+```
+$~ tuist edit
+```
+
+This will open a temporary Xcode project and you can utilize the Xcode auto-completion to write the project's description.
+
+## Conclusions
+
 However, right now I couldn't figure out why the projects are structured the way it(ie. `TuistApp/`, `TuistAppKit`, `TuistAppUI`. I feel like maybe it has something to do with [µFeatures Architecture][4] define in the docs. I tried to customize the project description following the examples given but it doesn't exactly generate new files like the initial setup either. Maybe I need to use `tuist scaffold` for that.
 
 I feel like the best way to figure out how to use it is by migrating an existing project that I have to use [Tuist][1]. So until then, here's a helpful command that I think will help you to figure out how it works.
@@ -142,3 +154,4 @@ Bye 😆
 [2]: https://github.com/yonaskolb/XcodeGen
 [3]: https://en.wikipedia.org/wiki/Infrastructure_as_code
 [4]: https://tuist.io/docs/building-at-scale/microfeatures/
+[5]: https://code.visualstudio.com/
