@@ -127,7 +127,7 @@ This will generate the `.xcodeproj`, `.xcworkspace`, and `Derived/` files necess
 
 ## Editing Project.swift
 
-I find editing `Project.swift` with text editor like [VSCode][5] difficult. Going through the docs, apparently there's a command to help this process. You can run the followings
+I find editing `Project.swift` directly with a text editor like [VSCode][5] difficult since I couldn't figure out the APIs definitions. Going through the docs apparently, there's a command to help this process. You can run the followings
 
 ```
 $~ tuist edit
