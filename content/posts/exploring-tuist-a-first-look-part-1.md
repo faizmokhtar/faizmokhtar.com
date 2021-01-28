@@ -140,7 +140,7 @@ This will open a temporary Xcode project and you can utilize the Xcode auto-comp
 
 ## Conclusions
 
-However, right now I couldn't figure out why the projects are structured the way it(ie. `TuistApp/`, `TuistAppKit`, `TuistAppUI`. I feel like maybe it has something to do with [µFeatures Architecture][4] define in the docs. I tried to customize the project description following the examples given but it doesn't exactly generate new files like the initial setup either. Maybe I need to use `tuist scaffold` for that.
+However, right now I couldn't figure out why the projects are structured the way it is(ie. `TuistApp/`, `TuistAppKit`, `TuistAppUI`. I feel like maybe it has something to do with [µFeatures Architecture][4] define in the docs. I tried to customize the project description following the examples given but it doesn't exactly generate new files like the initial setup either. Maybe I need to use `tuist scaffold` for that.
 
 I feel like the best way to figure out how to use it is by migrating an existing project that I have to use [Tuist][1]. So until then, here's a helpful command that I think will help you to figure out how it works.
 
