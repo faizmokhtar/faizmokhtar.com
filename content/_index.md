@@ -1,8 +1,13 @@
-Hey, I'm Faiz Mokhtar and this is my personal blog and website. I am a software engineer based in Kuala Lumpur, Malaysia 🇲🇾
+---
+menu: main
+comments: false
+---
+
+Hey, I'm Faiz Mokhtar and this is my personal blog and website. I'm a software engineer based in Kuala Lumpur, Malaysia 🇲🇾
 
 ---
 
-Here's some details about me:
+Here are some details about me:
 
 - I am experienced in both native iOS and hybrid mobile development framework
     - Swift, Objective-C, SwiftUI and UIKit framework

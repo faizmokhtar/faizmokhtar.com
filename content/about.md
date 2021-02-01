@@ -2,7 +2,6 @@
 title: About
 authorbox: false
 sidebar: false
-menu: main
 comments: false
 ---
 ![A picture of me holding Jeju Bike Passport](/images/uploads/img_3903-2.jpg "About Me")
