@@ -13,7 +13,7 @@ Today I learned that you can actually create multiple Xcode screen previews in S
 
 Assuming you have a SwiftUI `View` named `ContentView`. In the `PreviewProvider`, create a `Group` and init multiple `ContentView()` children inside of it. For example:
 
-```
+```swift
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {

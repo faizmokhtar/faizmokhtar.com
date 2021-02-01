@@ -10,7 +10,7 @@ comments: true
 ---
 It is called [type assertion][1]. Here is how it looks like:
 
-```
+```golang
 str := value.(string)
 ```
 
@@ -18,13 +18,13 @@ It gives you access to the interface's concrete value. It asserts if the values 
 
 Type assertion can also return two values: the concrete underlying value and a boolean value that check if the assertion is true.
 
-```
+```golang
 t, ok := x.(T)
 ```
 
 Here is some code examples for a much easier references. It is a similar example as the one you can find in [A Tour of Go][1]
 
-```
+```golang
     var i interface{} = "hello"
 
     s := i.(string)

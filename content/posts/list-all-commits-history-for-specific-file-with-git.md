@@ -15,8 +15,8 @@ Assuming the following situation:
 
 Well, worry not because you can use the following `git log` command to solve your issue:
 
-````
+```bash
 $~ git log --follow -- path/to/file.txt
-````
+```
 
 This will list down all the commits history for that specific file. It will work even if the file was deleted or renamed. However please be aware that it will only work for a single file at a time.

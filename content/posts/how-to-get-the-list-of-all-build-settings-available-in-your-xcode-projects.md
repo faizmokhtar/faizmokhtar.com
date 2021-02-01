@@ -14,27 +14,27 @@ This is super helpful when you have to write a custom run script or when you hav
 
 Anyway, to print the list run the following command in your project root:
 
-````
+```bash
 xcodebuild -showBuildSettings -project SampleApp.xcodeproj
-````
+```
 
 Or if you're using workspace, use the following command. The `-scheme` have to be defined for it to work.
 
-````
+```bash
 xcodebuild -showBuildSettings -workspace SampleApp.xcworkspace -scheme 'SampleApp'
-````
+```
 
 If you want the list of build settings that are specific to a certain configuration, ie: `Release` or `Debug`
 
-````
+```bash
 xcodebuild -showBuildSettings -workspace SampleApp.xcworkspace -scheme 'SampleApp' -configuration Release
-````
+```
 
 Finally, to make it easier for you to go through the whole list, you can pipe the output to a text file. For example
 
-````
+```bash
 xcodebuild -showBuildSettings -workspace SampleApp.xcworkspace -scheme 'SampleApp' -configuration Release | tee ~/Desktop/build.txt
-````
+```
 
 Then you can file the generated files at `~/Desktop/build.txt`
 

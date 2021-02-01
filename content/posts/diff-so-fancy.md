@@ -16,7 +16,7 @@ I find it quite hard to make sense of the output from `git diff`. It is somewhat
 There are a lot of ways to install it but I prefer to install all my tools with Brew. 
 So run the following in your terminal:
 
-```
+```bash
 $~ brew install diff-so-fancy
 ```
 
@@ -30,7 +30,7 @@ $~ git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
 This will change your `~/.gitconfig` like so
 
-```
+```toml
 [core]
     ... // other settings
     pager = diff-so-fancy | less --tabs=4 -RFX

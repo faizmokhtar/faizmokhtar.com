@@ -12,7 +12,7 @@ Did you know that SwiftUI can be use in UIKit project? To use SwiftUI in UIKit p
 
 Assuming you have a SwiftUI `View` named `SwiftUIView` like so:
 
-```
+```swift
 let swiftUIView = SwiftUIView()
 ```
 
@@ -20,7 +20,7 @@ let swiftUIView = SwiftUIView()
 
 To initialize it programmatically, set the SwiftUI `View` as the `rootView` of the `UIHostingController`.
 
-```
+```swift
 let vc = UIHostingController(rootView: swiftUIView)
 self.present(vc, animated: true, completion: nil)
 ```
@@ -35,7 +35,7 @@ Using it in Storyboard requires a little bit more work.
 
 2. Then, create an `IBSegueAction` where you can init the `UIHostingController` like so
 
-```
+```swift
  @IBSegueAction func openSwiftUIView(_ coder: NSCoder) -> UIViewController? {
      return UIHostingController(coder: coder, rootView: swiftUIView))
  }

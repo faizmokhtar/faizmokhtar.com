@@ -19,7 +19,7 @@ When I try to use the GoLand's debugger, I got the following error;
 
 When I googled, it seems this issue is more related to [Delve](https://github.com/go-delve/delve), the debugger for Go and macOS Catalina. Running the following command on my terminal will fix it
 
-```
+```bash
 $~ xcode-select --install
 ```
 

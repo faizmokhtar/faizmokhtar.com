@@ -11,7 +11,7 @@ comments: true
 Today I learned how to install or update my [Node.js][2] version to the latest stable version with [nvm][1]. 
 
 To update to the latest stable version, simply run:
-```
+```bash
 $~ nvm install stable
 ```
 

@@ -12,17 +12,17 @@ Today I learned the difference between **image** and **container** in [Docker][1
 To explain it in *cake* term, **image** is the recipe of the cake and **container** is the cake itself. You can create multiple cakes based on the same recipe.
 
 To see all the images available, you can run the following:
-```
+```bash
 $~ docker images
 ```
 
 and to see the container that's currently running, you can run:
-```
+```bash
 $~ docker ps
 ```
 
 or if you want to see the list of available containers, run:
-```
+```bash
 $~ docker ps -a
 ```
 

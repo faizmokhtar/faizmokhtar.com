@@ -3,7 +3,9 @@ languageCode = "en-us"
 title = "@faizmokh"
 theme = "hugo-bearblog"
 googleAnalytics = "UA-45192347-5"
-copyright = "Copyright © 2020, Faiz Mokhtar."
+copyright = "Copyright © 2021, Faiz Mokhtar."
+pygmentsCodefences = true
+pygmentsStyle = "pygments"
 
 hideMadeWithLine = true
 enableRobotsTXT = true
@@ -50,3 +52,14 @@ enableRobotsTXT = true
     post_meta = ["date", "categories", "translations"] # Order of post meta information
     dateFormatSingle = "02 Jan 2006"
     dateFormatList = "02 Jan 2006"
+
+# to enable syntax highlighting
+[markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    tabWidth = 2
+    noClasses = false

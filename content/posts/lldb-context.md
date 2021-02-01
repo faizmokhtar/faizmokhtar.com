@@ -15,13 +15,13 @@ Here's a quick rundown:
 1. When you stop in Objective-C code using breakpoint, LLDB will use Objective-C debugging context.
 
     So you have to use Objective-C syntax to debug:
-    ```
+    ```bash
     (lldb) po [ViewController description]
     ```
 2. Similarly when you add a breakpoint in Swift code, LLDB will use Swift debugging context instead.
 
     So you have to use Swift syntax to debug:
-    ```
+    ```bash
     (lldb) po ViewController.description()
     ```
 

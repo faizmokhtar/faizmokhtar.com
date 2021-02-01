@@ -15,7 +15,7 @@ I learned about Go examples and benchmarks today. They are parts of Go default p
 
 #### Structure
 
-```
+```golang
 func ExampleRepeat() {
   repeated := Repeated("x", 5)
   fmt.Println(repeated)
@@ -32,7 +32,7 @@ func ExampleRepeat() {
 
 #### Sample Execution
 
-```
+```bash
 $ go test -v
 === RUN   TestRepeat
 --- PASS: TestRepeat (0.00s)
@@ -52,7 +52,7 @@ $ go test -v
 
 #### Structure
 
-```
+```golang
 func BenchmarkRepeat(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		Repeat("a", 100)
@@ -72,7 +72,7 @@ func BenchmarkRepeat(b *testing.B) {
 
 #### Sample Execution
 
-```
+```bash
 $ go test -bench=.
 goos: darwin
 goarch: amd64

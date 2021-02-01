@@ -13,8 +13,8 @@ Given the following situation:
 
 Okay, take a deep breath and just calm down. Use the following to reset it to your latest origin.
 
-````
+```bash
 $~ git reset --hard ORIG_HEAD
-````
+```
 
 That's it. This will only work if you haven't push your changes to `origin` yet. If you have, then you need to use `git reflog`

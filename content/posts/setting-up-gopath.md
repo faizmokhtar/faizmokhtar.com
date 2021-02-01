@@ -11,7 +11,7 @@ You should set your `$GOPATH`  in `.zshrc` or `.bash_profile` to be used later i
 
 Add the followings into your `.bash_profile`:
 
-```
+```bashrc
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 ```

@@ -9,13 +9,13 @@ Today I learned how to git clone a repository that has [git submodules][1] insid
 
 If you haven't cloned the repository yet, you can use `--recurse-submodules` option:
 
-````
+````bash
 $ git clone --recurse-submodules https://github.com/sample/sample-repo.git
 ````
 
 Otherwise, If you already cloned the project then you can use the following command. Run the command inside your git repository.
 
-````
+````bash
 $ git submodule update --init --recursive
 ````
 

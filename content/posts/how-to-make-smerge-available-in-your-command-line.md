@@ -7,7 +7,7 @@ comments: true
 ---
 `smerge` is a command line tools for [Sublime Merge][1]. To make this tools available in your command line, you have to symlink it. Here's the command on how to do it for macOS:
 
-```
+```bash
  ln -s "/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge" /usr/local/bin/smerge
 ``` 
 

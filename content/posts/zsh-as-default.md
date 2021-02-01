@@ -15,7 +15,7 @@ To make it as a default shell for your machine, simply do the following:
 
 Make sure zsh is available on your system. If not, install it with [`brew`][3].
 
-```
+```bash
 $~ brew install zsh
 
 $~ which zsh
@@ -26,7 +26,7 @@ $~ which zsh
 
 To set is as default shell, run the following in your terminal:
 
-```
+```bash
 $~ sudo sh -c "echo $(which zsh) >> /etc/shells"
 $~ chsh -s $(which zsh)
 ```
@@ -37,7 +37,7 @@ Then, simply reopen your shell again and it should used [`zsh`][1] as the defaul
 
 If you are still unsure whether your shell is running [`zsh`][1] or [`bash`][2], run the following in your terminal:
 
-```
+```bash
 $~ echo $0
 -zsh  #output
 ```

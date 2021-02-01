@@ -10,13 +10,13 @@ A quick one. Here's how to change your git branch name:
 
 If you want to rename of your current local branch:
 
-```
+```bash
 git branch -m new-branch-name
 ```
 
 If you want to change the name of a different local branch
 
-```
+```bash
 git branch -m old-branch new-branch-name
 ```
 

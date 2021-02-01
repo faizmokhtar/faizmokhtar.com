@@ -9,9 +9,9 @@ comments: true
 ---
 Today I learned a simple solution to install the latest stable [ruby][2] version with [rbenv][1]. If you are using [rbenv][1] to maintain your ruby versions but you couldn't be bothered to keep track of the releases and just want a stable version, you can use the following command:
 
-````
+```bash
 $ rbenv install $(rbenv install -l | grep -v - | tail -1)
-````
+```
 
 This command will get the latest stable ruby release and install it with `rbenv install`. That's it.
 

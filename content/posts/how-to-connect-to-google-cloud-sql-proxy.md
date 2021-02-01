@@ -16,7 +16,7 @@ Here are the steps to setup [Cloud SQL Proxy][1] on your local machines:
 
 First of all you have to download it. I would recommend putting it at root (`~/`) folder.
 
-```
+```bash
 $~ cd ~/
 $~ curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64
 $~ chmod +x cloud_sql_proxy
@@ -28,13 +28,13 @@ A [service account][3] is a special type of Google account that belongs to your 
 
 To set it up, follow these commands. You can replace `"my-proxy-user"` to your likings
 
-```
+```bash
 $~ gcloud iam service-accounts create proxy-user --display-name "my-proxy-user"
 ```
 
 Once you have created it, list it down to get the email of the service account.
 
-```
+```bash
 $~ gcloud iam service-accounts list
 ```
 
@@ -42,7 +42,7 @@ Next, allow your service account to connect to the Cloud SQL proxy on your behal
 
 Run the following commands. Replace `[PROJECT_ID]` and `[SERVICE_ACCOUNT_EMAIL]` with your own Google Project ID and the service account email that you got from the command before.
 
-```
+```bash
 $~ gcloud projects add-iam-policy-binding [PROJECT_ID] --member \
 serviceAccount:[SERVICE_ACCOUNT_EMAIL] --role roles/cloudsql.client
 ```
@@ -51,7 +51,7 @@ serviceAccount:[SERVICE_ACCOUNT_EMAIL] --role roles/cloudsql.client
 
 Next, generate a `key.json` for authentication to the service account. (I would recommend you to ignore this file in git)
 
-```
+```bash
 $~ gcloud iam service-accounts keys create key.json --iam-account [SERVICE_ACCOUNT_EMAIL]
 ```
 
@@ -59,13 +59,13 @@ $~ gcloud iam service-accounts keys create key.json --iam-account [SERVICE_ACCOU
 
 Finally to start the Cloud SQL Proxy, run the following commands. Replace the `[INSTANCE_CONNECTION_NAME]` with your own and the `[PORT]` based on the database you want to connect to.
 
-```
+```bash
 $~ ./cloud_sql_proxy -instances=[INSTANCE_CONNECTION_NAME]=tcp:[PORT] -credential_file=key.json
 ```
 
 If everything is working fine, you will get an output similar like this
 
-```
+```bash
 2020/05/10 22:23:07 Listening on 127.0.0.1:5432 for [INSTANCE_CONNECTION_NAME]
 2020/05/10 22:23:07 Ready for new connections
 ```
@@ -76,7 +76,7 @@ That's pretty much it. You should be connected to your Cloud SQL from your local
 
 If you happened to get following error:
 
-```
+```bash
 listen tcp 127.0.0.1:5432: bind: address already in use
 ```
 
