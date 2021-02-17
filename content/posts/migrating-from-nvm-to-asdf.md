@@ -9,13 +9,13 @@ I've been using `zsh` with [antigen][4] as the package manager for years. Over t
 
 I read few months (or a year) ago that nvm, a version manager for `nodejs` can cause [this issue][5] so I thought maybe it's the right time I should try [asdf][1].
 
-[asdf][1] is basically just another tool to manage versions. Instead of having to install tools like [rbenv][2] for ruby or [nvm][3] for `nodejs`, you can just use [asdf][1] and install its plugins to manage all the language versions you're using.
+[asdf][1] is basically just another tool to manage versions but instead of having to install multiple tools like [rbenv][2] for ruby or [nvm][3] for `nodejs`, you can just use [asdf][1] and use its plugins to manage all the language versions that you're using.
 
-Anyway, I'm not going to talk about what's so good about it. For that, you can read the docs yourself. I'm just going to document the steps I took here.
+Anyway, I'm not going to talk about what's so good about it. For that, you can read the docs yourself. I'm just going to document the steps I did here.
 
 ## Removing nvm completely
 
-To remove nvm completely, here are the steps that I did:
+First of all, I have to completely remove [nvm][3]. Here are the steps:
 
 ```bash
 # list out all the nodes version I'm using
@@ -30,14 +30,14 @@ $~ rm -rf ~/.nvm/ ~/.nvmrc
 
 ## Installing asdf
 
-I installed [asdf][1] using Brew
+Then, I installed [asdf][1] using Brew
 
 ```bash
 # install asdf using Brew
 $~ brew install asdf
 ```
 
-Then I add the following in my `~/.zshrc` file
+Then, I have to add the following in my `~/.zshrc` file to load [asdf][1] properly.
 
 ```
 ...
@@ -46,27 +46,29 @@ Then I add the following in my `~/.zshrc` file
 ...
 ```
 
-That completes the [asdf][1] setup. To install the `nodejs` plugin, I run the following command
+That basically completes the [asdf][1] setup. Next I have to install the `nodejs` plugin. To install the `nodejs` plugin, I run the following command:
 
 ```bash
 $~ asdf plugin-add nodejs # install nodejs plugin
 $~ bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring # import nodejs release team OpenPGP keys
 ```
 
-I got an error when trying to import the keys, so I have to install `gpg2` first.
+I got an error when trying to import the keys. Apparently, I don't have `gpg2` installed yet so I have to install it first.
 
 ```
 $~ brew install gpg2
 ```
 
-After installing it, I can finally run the `nodejs` installation without any error
+After installing `gpg2`, I can finally run the `nodejs` installation without any error.
 
 ```~
 $~ asdf install nodejs 15.8.0 # install nodejs version 15.8.0
 $~ asdf global nodejs 15.8.0 # set it as the global version
 ``` 
 
-That's it. I notice that my terminal startup time is a little bit more faster now. I just need to replace [rbenv][2] and [pyenv][6] next
+That's pretty much it. I finally have a working `nodejs` environment and I notice that my terminal startup time is a little bit faster now. Nice. 
+
+I just need to replace [rbenv][2] and [pyenv][6] next.
 
 [1]: https://asdf-vm.com/#/
 [2]: https://github.com/rbenv/rbenv
