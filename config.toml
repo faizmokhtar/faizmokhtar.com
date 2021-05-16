@@ -1,7 +1,7 @@
 baseURL = "https://faizmokhtar.com/"
 languageCode = "en-us"
-title = "@faizmokh's blog"
-theme = "hugo-bearblog"
+title = "@faizmokh"
+theme = "hugo-tania"
 googleAnalytics = "UA-45192347-5"
 copyright = "Copyright © 2021, Faiz Mokhtar."
 pygmentsCodefences = true
@@ -10,18 +10,18 @@ pygmentsStyle = "pygments"
 hideMadeWithLine = true
 enableRobotsTXT = true
 
-[[menu.main]]
-    name = "Posts"
-    url = "/posts/"
+[[menu.header]]
+    name = "Articles"
+    url = "/articles/"
     weight = 1
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
-[[menu.main]]
-    name = "About"
+[[menu.header]]
+    name = "About me"
     url = "/about/"
-    weight = 3
+    weight = 2
+
+[[menu.footer]]
+    name = "RSS"
+    url = "/index.xml"
 
 [params]
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
@@ -33,7 +33,6 @@ enableRobotsTXT = true
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
     # images = ["images/share.png"]
-
     hideMadeWithLine = true
     title = "@faizmokh's blog"
     defaultTheme = "light"

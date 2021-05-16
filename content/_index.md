@@ -3,9 +3,9 @@ menu: main
 comments: false
 ---
 
-Hey, I'm Faiz Mokhtar and this is my personal blog and website. I'm a software engineer based in Kuala Lumpur, Malaysia 🇲🇾
+Hello, I'm Faiz Mokhtar. 👋
 
----
+I'm a software engineer based in Kuala Lumpur, Malaysia.
 
 Here are some details about me:
 
