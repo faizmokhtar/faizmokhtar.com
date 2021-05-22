@@ -7,8 +7,9 @@ Hello, I'm Faiz Mokhtar. 👋
 
 I'm a software engineer based in Kuala Lumpur, Malaysia.
 
-Here are some details about me:
+A little bit about myself:
 
+- I keep my learning notes public [notes.faizmokhtar.com](http://notes.faizmokhtar.com/)
 - I am experienced in both native iOS and hybrid mobile development framework
     - Swift, Objective-C, SwiftUI and UIKit framework
     - React Native (0.41 ~ 0.46)
